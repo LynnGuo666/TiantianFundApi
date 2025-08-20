@@ -1,0 +1,13 @@
+# Ignore docs directory to prevent VuePress build issues
+docs/
+# Ignore test files
+test/
+# Ignore development dependencies
+node_modules/
+# Ignore git files
+.git/
+.github/
+# Ignore other build artifacts
+*.log
+.nyc_output/
+coverage/
